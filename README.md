@@ -6,6 +6,13 @@ La aplicación utiliza **HTML5 Canvas**, **CSS3** y **JavaScript** para renderiz
 
 ---
 
+## 🌐 Demo en vivo
+
+👉 **Prueba la aplicación aquí:**  
+🔗 https://arbol-navidad2025.vercel.app/
+
+---
+
 ## ✨ Características principales
 
 - 🎄 Renderizado de árbol de Navidad en 3D en tiempo real  
@@ -24,11 +31,3 @@ La aplicación utiliza **HTML5 Canvas**, **CSS3** y **JavaScript** para renderiz
 - **CSS3** – Estilos visuales y efectos
 - **JavaScript (ES6+)** – Lógica interactiva y animaciones
 - **Web APIs** – Manejo de eventos y renderizado dinámico
-
----
-
-## 🚀 Instalación y uso
-
-1. Clona este repositorio:
-   ```bash
-   git clone https://github.com/tu-usuario/arbol-navidad-3d.git
