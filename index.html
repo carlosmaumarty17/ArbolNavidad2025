@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Árbol de Navidad 3D</title>
+    <!-- Include dat.GUI library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.9/dat.gui.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.9/dat.gui.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="loading" id="loading">
+        <div class="spinner"></div>
+    </div>
+
+    <div class="overlay">
+        <h1>🎄Árbol de Navidad 3D</h1>
+        <p>Árbol de Navidad 3D interactivo con una estrella animada en la cima!</p>
+        <ul>
+            <li>Personalice las cadenas de ribbons en el panel de control</li>
+            <li>Ajuste la configuración de la estrella en la carpeta Star</li>
+            <li>Click para pausar/reanudar la animación</li>
+            <li>Presione Espacio para pausar, R para reiniciar</li>
+        </ul>
+    </div>
+
+    <div class="canvas-container">
+        <canvas id="canvas"></canvas>
+        <div class="fps-counter" id="fpsCounter">FPS: 60</div>
+        <div class="click-hint" id="clickHint">Click para pausar/reanudar</div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
